@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-  
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mExplore"
+        android:title="Explore"
+        android:icon="@drawable/baseline_add_location_alt"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Go"
+        android:id="@+id/mGo"
+        android:icon="@drawable/baseline_commute"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Saved"
+        android:id="@+id/Saved"
+        android:icon="@drawable/baseline_bookmark"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:title="Contribute"
+        android:id="@+id/mContribute"
+        android:icon="@drawable/baseline_add_circle"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:title="Updates"
+        android:id="@+id/mUpdates"
+        android:icon="@drawable/baseline_notifications"
+        app:showAsAction="ifRoom"/>
+
+
+
+
 </menu>
